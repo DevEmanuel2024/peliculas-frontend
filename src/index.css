@@ -1,0 +1,193 @@
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#root {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
+
+:root {
+  --acento: #7c3aed;
+  --acento-hover: #6d28d9;
+  --acento-claro: #a78bfa;
+  --fondo-card: #1a1a2e;
+  --fondo-tabla: #16213e;
+}
+
+.navbar-custom {
+  background: linear-gradient(90deg, #0a0a0a, #1a1a2e);
+  border-bottom: 2px solid var(--acento);
+  padding: 15px 0;
+}
+
+.navbar-brand-custom {
+  color: var(--acento-claro) !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-link-custom {
+  color: #cccccc !important;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: var(--acento-claro) !important;
+}
+
+.card-custom {
+  background-color: var(--fondo-card);
+  border: 1px solid var(--acento);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.form-control, .form-select {
+  background-color: #0d0d1a !important;
+  border: 1px solid var(--acento) !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.3) !important;
+}
+
+.btn-acento {
+  background-color: var(--acento);
+  color: white;
+  border: 2px solid var(--acento-claro);
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.btn-acento:hover {
+  background-color: var(--acento-hover);
+  color: white;
+}
+
+.tabla-custom {
+  color: #ffffff;
+}
+
+.tabla-custom thead {
+  background: linear-gradient(90deg, var(--acento), #1a1a2e);
+  color: white;
+}
+
+.tabla-custom tbody tr {
+  background-color: var(--fondo-tabla);
+  border-bottom: 1px solid #2a2a4a;
+  transition: background-color 0.2s;
+}
+
+.tabla-custom tbody tr:hover {
+  background-color: #1e1e3a;
+}
+
+.media-card {
+  background-color: var(--fondo-card);
+  border: 1px solid #2a2a4a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.media-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--acento);
+}
+
+.media-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.media-card-body {
+  padding: 12px;
+}
+
+.media-card-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.media-card-info {
+  color: var(--acento-claro);
+  font-size: 0.8rem;
+}
+
+.banner {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e);
+  border: 1px solid var(--acento);
+  border-radius: 16px;
+  padding: 60px 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  color: var(--acento-claro);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.banner p {
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.page-title {
+  color: var(--acento-claro);
+  font-weight: bold;
+  border-left: 4px solid var(--acento);
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+label {
+  color: #a78bfa !important;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+h5 {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.table > tbody > tr > td {
+  background-color: var(--fondo-tabla) !important;
+  color: #ffffff !important;
+  border-color: #2a2a4a !important;
+}
+
+.table > tbody > tr:hover > td {
+  background-color: #1e1e3a !important;
+}
+
+.table > thead > tr > th {
+  background: linear-gradient(90deg, var(--acento), #1a1a2e) !important;
+  color: white !important;
+  border-color: #2a2a4a !important;
+}
+.navbar-logo {
+  height: 40px;
+  width: auto;
+  border-radius: 10px;
+}
