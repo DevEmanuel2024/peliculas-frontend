@@ -14,7 +14,7 @@ function Navbar() {
           <Link className="nav-link-custom text-decoration-none" to="/directores">Directores</Link>
           <Link className="nav-link-custom text-decoration-none" to="/productoras">Productoras</Link>
           <Link className="nav-link-custom text-decoration-none" to="/tipos">Tipos</Link>
-          <Link className="nav-link-custom text-decoration-none" to="/medias">Películas</Link>
+          <Link className="nav-link-custom text-decoration-none" to="/medias">Contenido</Link>
         </div>
       </div>
     </nav>
